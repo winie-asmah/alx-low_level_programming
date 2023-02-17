@@ -4,7 +4,7 @@
 /**
  * main - prints a random and sttates if
  * its a positive, negative or zero.
- * Return: o if its true or non-zero otherwise
+ * Return: 0 if its False or non-zero otherwise
  * This program will assign a random
  * number to the variable n each time it is executed.
  * Complete the source code in order to print
