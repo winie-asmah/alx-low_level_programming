@@ -1,20 +1,16 @@
 #include <stdio.h>
 /**
- *main - prints numbers of base 16
+ *main - prints alphabets reversely
  *Return: 0
  *Description - All your code should be in the main function
  */
 int main(void)
 {
-	char c;
+	char ch;
 
-	for (c = '0'; c <= '9'; c++)
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-		putchar(c);
-	}
-	for (c = 'a'; c <= 'f'; c++)
-	{
-		putchar(c);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
