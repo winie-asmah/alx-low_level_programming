@@ -1,17 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
+
 /**
- *main - prints the alphabet
- *Return: 0
- *Description - All your code should be in the main function
+ *main - Prints the alphabetic
+ *Return: Always (Success)
  */
 int main(void)
 {
-	char ch;
-
-	for (ch = 'a'; ch < = 'z'; ch++)
+	char c;
+	
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(ch);
-	}								
+		putchar(c);
+	}
+	
 	putchar('\n');
 	return (0);
 }
+
