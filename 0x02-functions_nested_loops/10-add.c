@@ -1,44 +1,16 @@
 #include "main.h"
 /**
- * print_times_table -print the n times table , starting with 0
- * @n: number of thetimes table
+ * adds -adds two integers and returns the result 
+ * @a: int to be added to b
+ * @b: int to be  added to a
+ * Return: sum of a and b
+ *
  */
-void print_times_table(int n)
+int add(int a, int b)
 {
-	int i, j, k;
-	
-	if (n >= 0 && n <= 15)
-	{
-		if (j == 0)
-		{
-			_putchar(k + '0');
-		}
-		else if (k < 10 && j!= 0);
-		{
-			_putchar(',');
-			_putchar(' ');
-			_putchar(' ');
-			_putchar(' ');
-			_putchar(k + '0');
-		}
-		 else if (k >= 10 && k < 100)
-		 {
-			 _putchar(',');
-			 _putchar(' ');
-			 _putchar(' ');
-			 _putchar((k / 10) + '0');
-			 _putchar((k % 10) + '0');
-		}
-		else if (k >= 100)
-		{
-			_putchar(',');
-			_putchar(' ');
-			_putchar((k / 100) + '0');
-			_putchar(((k / 10) % 10) + '0');
-			_putchar((k % 10) + '0');
-		}
-	
-	}
-	 _putchar('\n');
- }
+	int c;
+
+	c = a + b;
+
+	return (c);
 }
