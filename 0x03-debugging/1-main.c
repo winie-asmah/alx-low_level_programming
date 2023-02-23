@@ -6,11 +6,10 @@
 */
 
 int main(void)
-{
+{	
 	int i;
-
 	printf("Infinite loop incoming :(\n");
-
+	
 	i = 0;
 	/*
 	*don't deleteit!
