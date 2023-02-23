@@ -1,16 +1,16 @@
 #include "main.h"
-/**
- * print_numbers - prints the numbers from 0 to 9
- *
- * Return: numbers
- */
-void print_numbers(void)
-{
-	int num;
 
-	for (num = 48 ; num <= 57 ; num++)
-		_putchar(num);
-	_putchar('\n');
+/**
+ * mul - multiplies two integers
+ * @a: first integer to be multiplied
+ * @b: second integer to be multiplied
+ *
+ * Return: product of the two integers
+ */
+int mul(int a, int b)
+{
+	return (a * b);
 }
+
 
 
