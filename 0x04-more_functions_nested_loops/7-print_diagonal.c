@@ -1,23 +1,23 @@
 #include "main.h"
 /**
- * print_square - prints a square
- * @size: size of the square
+ * print_diagonal -draws a diagonal line on the terminal
+ * @n: the number of times that the special character must be print
  *
- *
- * Return: a square
+ * Return: a diagonal
  */
-void print_square(int size)
+void print_diagonal(int n)
 {
 	int a, b;
 
-	if (size > 0)
+	if (n > 0)
 	{
-		for (a = 0 ; a < size ; a++)
+		for (a = 0 ; a < n ; a++)
 		{
-			for (b = 0 ; b < size ; b++)
+			for (b = 0 ; b < a ; b++)
 			{
-				_putchar(35);
+				_putchar(' ');
 			}
+			_putchar(92);
 			_putchar('\n');
 		}
 	}
