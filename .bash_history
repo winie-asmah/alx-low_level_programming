@@ -78,3 +78,20 @@ git add .
 git commit -m '101-keygen.c'
 git push
 exit
+cd root
+cd alx-low_level_programming
+cd 0x06-pointers_arrays_strings
+ls
+cd ..
+git remote add origin https://github.com/winie-asmah/alx-low_level_programming.git
+git add https://github.com/winie-asmah/alx-low_level_programming.git
+git add .
+git commit -a
+git push
+cd 0x06-pointers_arrays_strings
+git commit -a
+git push
+git remote add https://github.com/winie-asmah/alx-low_level_programming.git
+git remote add main https://github.com/winie-asmah/alx-low_level_programming.git
+git push
+exit
