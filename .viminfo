@@ -18,21 +18,23 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1677512409,,"wq"
+|2,0,1677768058,,"wq"
+:w
+|2,0,1677767758,,"w"
 :%s/\s\+$//e
-|2,0,1677512402,,"%s/\\s\\+$//e"
+|2,0,1677531187,,"%s/\\s\\+$//e"
+:%s/\s\+$\\e
+|2,0,1677513872,,"%s/\\s\\+$\\\\e"
+:%s/\s+$\\e
+|2,0,1677513050,,"%s/\\s+$\\\\e"
 :s/\s+$\\e
 |2,0,1677512361,,"s/\\s+$\\\\e"
-:%s/\s\+$\\e
-|2,0,1677190590,,"%s/\\s\\+$\\\\e"
 :q!
 |2,0,1677186584,,"q!"
 :wq!
 |2,0,1677186472,,"wq!"
 :q
 |2,0,1677186347,,"q"
-:w
-|2,0,1677150422,,"w"
 :x
 |2,0,1676584564,,"x"
 :WQ
@@ -42,11 +44,11 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1677512402,,"\\s\\+$"
-? \s+$\\e
-|2,1,1677512361,,"\\s+$\\\\e"
+|2,1,1677531187,,"\\s\\+$"
 ? \s\+$\\e
-|2,1,1677190590,,"\\s\\+$\\\\e"
+|2,1,1677513872,,"\\s\\+$\\\\e"
+? \s+$\\e
+|2,1,1677513050,,"\\s+$\\\\e"
 
 # Expression History (newest to oldest):
 
@@ -60,230 +62,421 @@ $
 |3,1,36,0,1,0,1676681289,"	"
 
 # File marks:
-'0  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,48,11,0,1677512409,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
-'1  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,49,11,0,1677512107,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
-'2  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,50,11,0,1677511786,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
-'3  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,51,11,0,1677511786,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
-'4  15  5  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,52,15,5,1677511618,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
-'5  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,53,11,0,1677511565,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
-'6  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,54,11,0,1677511565,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
-'7  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,55,11,0,1677511565,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
-'8  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,56,11,0,1677511565,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
-'9  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,57,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
+'0  31  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/0-strcat.c
+|4,48,31,0,1677768058,"~/alx-low_level_programming/0x06-pointers_arrays_strings/0-strcat.c"
+'1  16  5  ~/alx-low_level_programming/0x06-pointers_arrays_strings/main.h
+|4,49,16,5,1677767841,"~/alx-low_level_programming/0x06-pointers_arrays_strings/main.h"
+'2  16  58  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,50,16,58,1677767765,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+'3  16  59  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,51,16,59,1677682508,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+'4  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,52,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+'5  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,53,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+'6  36  0  /alx-low_level_programming/0x05-pointers_arrays_strings/100-atoi.c
+|4,54,36,0,1677531049,"/alx-low_level_programming/0x05-pointers_arrays_strings/100-atoi.c"
+'7  32  0  /alx-low_level_programming/0x05-pointers_arrays_strings/5-rev_string.c
+|4,55,32,0,1677530877,"/alx-low_level_programming/0x05-pointers_arrays_strings/5-rev_string.c"
+'8  33  0  /alx-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c
+|4,56,33,0,1677530604,"/alx-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c"
+'9  23  0  /alx-low_level_programming/0x05-pointers_arrays_strings/8-print_array.c
+|4,57,23,0,1677530413,"/alx-low_level_programming/0x05-pointers_arrays_strings/8-print_array.c"
 
 # Jumplist (newest first):
--'  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,39,11,0,1677512409,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,39,1,0,1677512307,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
--'  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,39,11,0,1677512107,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
--'  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,39,11,0,1677511786,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
--'  15  5  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,15,5,1677511618,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  15  5  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,15,5,1677511618,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  15  5  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,15,5,1677511618,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  15  5  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,15,5,1677511618,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  15  5  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,15,5,1677511618,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  15  5  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,15,5,1677511618,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  15  5  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,15,5,1677511618,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  15  5  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,15,5,1677511618,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,1,0,1677511590,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,1,0,1677511590,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,1,0,1677511590,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,1,0,1677511590,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,1,0,1677511590,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,1,0,1677511590,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,1,0,1677511590,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h
-|4,39,1,0,1677511590,"~/alx-low_level_programming/0x05-pointers_arrays_strings/main.h"
--'  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,39,11,0,1677511565,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
--'  11  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,39,11,0,1677511565,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,39,1,0,1677511323,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,39,1,0,1677511323,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,39,1,0,1677511323,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
-|4,39,1,0,1677511323,"~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  1  0  ~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md
-|4,39,1,0,1677511160,"~/alx-low_level_programming/0x05-pointers_arrays_strings/README.md"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
--'  11  0  /alx-low_level_programming/0x03-debugging/1-main.c
-|4,39,11,0,1677190794,"/alx-low_level_programming/0x03-debugging/1-main.c"
+-'  31  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/0-strcat.c
+|4,39,31,0,1677768058,"~/alx-low_level_programming/0x06-pointers_arrays_strings/0-strcat.c"
+-'  1  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/0-strcat.c
+|4,39,1,0,1677767952,"~/alx-low_level_programming/0x06-pointers_arrays_strings/0-strcat.c"
+-'  16  5  ~/alx-low_level_programming/0x06-pointers_arrays_strings/main.h
+|4,39,16,5,1677767841,"~/alx-low_level_programming/0x06-pointers_arrays_strings/main.h"
+-'  16  5  ~/alx-low_level_programming/0x06-pointers_arrays_strings/main.h
+|4,39,16,5,1677767841,"~/alx-low_level_programming/0x06-pointers_arrays_strings/main.h"
+-'  1  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/main.h
+|4,39,1,0,1677767785,"~/alx-low_level_programming/0x06-pointers_arrays_strings/main.h"
+-'  1  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/main.h
+|4,39,1,0,1677767785,"~/alx-low_level_programming/0x06-pointers_arrays_strings/main.h"
+-'  16  58  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,16,58,1677767765,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  16  58  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,16,58,1677767765,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  16  58  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,16,58,1677767765,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  16  58  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,16,58,1677767765,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  16  59  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,16,59,1677682508,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  16  59  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,16,59,1677682508,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  16  59  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,16,59,1677682508,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  16  59  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,16,59,1677682508,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  1  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,1,0,1677682326,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  1  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,1,0,1677682326,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  1  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,1,0,1677682326,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  1  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,1,0,1677682326,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  1  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,1,0,1677682326,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  1  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,1,0,1677682326,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  1  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,1,0,1677682326,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  1  0  ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+|4,39,1,0,1677682326,"~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  1  42  ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+|4,39,1,42,1677682206,"~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  30  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,30,0,1677531189,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
+-'  1  0  /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+|4,39,1,0,1677531141,"/alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/0-strcat.c
+	*	1677768051	0
+	"	31	0
+	^	31	1
+	.	31	0
+	+	31	0
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/main.h
+	*	1677767836	0
+	"	16	5
+	^	16	6
+	.	16	5
+	+	16	5
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/min.h
+	*	1677767758	0
+	"	16	58
+	^	16	59
+	.	16	59
+	+	16	59
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/README.md
+	*	1677682201	0
+	"	1	42
+	^	1	43
+	.	1	42
+	+	1	42
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/101-keygen.c
+	*	1677531187	0
+	"	30	0
+	^	30	0
+	.	29	1
+	+	29	1
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/100-atoi.c
+	*	1677531047	0
+	"	36	0
+	^	36	0
+	.	35	1
+	+	35	1
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/5-rev_string.c
+	*	1677530874	0
+	"	32	0
+	^	32	0
+	.	31	1
+	+	32	0
+	+	31	1
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c
+	*	1677530601	0
+	"	33	0
+	^	33	1
+	.	33	0
+	+	33	0
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/8-print_array.c
+	*	1677530411	0
+	"	23	0
+	^	23	0
+	.	22	1
+	+	22	1
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/7-puts_half.c
+	*	1677530196	0
+	"	33	0
+	^	33	0
+	.	32	1
+	+	32	1
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/6-puts2.c
+	*	1677530019	0
+	"	22	0
+	^	22	0
+	.	21	1
+	+	21	1
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/4-print_rev.c
+	*	1677529623	0
+	"	23	0
+	^	23	0
+	.	22	1
+	+	22	1
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+	*	1677529432	0
+	"	19	0
+	^	19	0
+	.	18	1
+	+	15	0
+	+	18	1
+
+> ~/.git/COMMIT_EDITMSG
+	*	1677528757	0
+	"	7	0
+
+> ~/alx-low_level_programming/0x05-pointers_arrays_strings/4-print_rev.c
+	*	1677528629	0
+	"	22	0
+	^	22	1
+	.	22	0
+	+	22	0
+
+> ~/alx-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+	*	1677528272	0
+	"	18	0
+	^	18	1
+	.	19	0
+	+	18	1
+	+	19	0
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/main.c
+	*	1677516333	0
+	"	19	0
+	^	19	1
+	.	19	0
+	+	19	0
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+	*	1677516249	0
+	"	16	0
+	^	16	0
+	.	16	0
+	+	1	60
+	+	1	77
+	+	1	109
+	+	1	170
+	+	1	179
+	+	1	182
+	+	1	168
+	+	1	151
+	+	1	180
+	+	19	0
+	+	16	0
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+	*	1677514693	0
+	"	8	28
+	^	8	29
+	.	8	29
+	+	4	16
+	+	5	1
+	+	4	4
+	+	5	3
+	+	4	2
+	+	12	8
+	+	13	7
+	+	12	1
+	+	14	1
+	+	10	5
+	+	13	6
+	+	6	1
+	+	1	16
+	+	8	29
+
+> /alx-low_level_programming/.git/COMMIT_EDITMSG
+	*	1677514562	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/_putchar.c
+	*	1677514076	0
+	"	12	0
+	^	12	1
+	.	12	0
+	+	12	0
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/README.md
+	*	1677513236	0
+	"	2	0
+	^	2	0
+	.	1	38
+	+	1	38
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/main.h
+	*	1677513127	0
+	"	15	5
+	^	15	6
+	.	15	5
+	+	15	5
+
+> /alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
+	*	1677513077	0
+	"	11	0
+	^	11	1
+	.	11	0
+	+	11	0
 
 > ~/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
 	*	1677512406	0
@@ -608,13 +801,6 @@ $
 	^	2	0
 	.	1	32
 	+	1	32
-
-> /alx-low_level_programming/.git/COMMIT_EDITMSG
-	*	1677159672	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
 
 > /alx-low_level_programming/0x03-debugging/main.c
 	*	1677158843	0
@@ -1657,178 +1843,3 @@ $
 	+	13	0
 	+	14	0
 	+	5	63
-
-> /alx-low_level_programming/0x00-hello_world/5-printf.c
-	*	1676580817	0
-	"	15	7
-	^	15	8
-	.	15	7
-	+	5	57
-	+	16	0
-	+	11	8
-	+	7	10
-	+	1	18
-	+	2	0
-	+	15	7
-
-> /alx-low_level_programming/0x00-hello_world/3-name
-	*	1676578591	0
-	"	2	19
-	^	2	20
-	.	2	14
-	+	2	14
-
-> /alx-low_level_programming/0x00-hello_world/2-assembler
-	*	1676578260	0
-	"	2	12
-	^	2	13
-	.	2	12
-	+	2	3
-	+	2	12
-
-> /alx-low_level_programming/0x00-hello_world/main.s
-	*	1676578071	0
-	"	11	0
-	^	11	1
-	.	11	0
-	+	11	0
-
-> /alx-low_level_programming/0x00-hello_world/1-compiler
-	*	1676577879	0
-	"	2	12
-	^	2	13
-	.	2	12
-	+	2	27
-	+	2	12
-
-> /alx-low_level_programming/0x00-hello_world/main.o
-	*	1676577761	0
-	"	11	0
-	^	11	1
-	.	11	1
-	+	11	1
-
-> ~/alx-low_level_programming/0x00-hello_world/1-compiler
-	*	1676574617	0
-	"	2	28
-	^	2	29
-	.	2	28
-	+	2	16
-	+	2	28
-
-> /alx-low_level_programming/0x00-hello_world/0-preprocessor
-	*	1676572166	0
-	"	2	14
-	^	2	15
-	.	2	14
-	+	2	14
-
-> /Betty/betty
-	*	1676570954	0
-	"	20	3
-	^	20	4
-	.	20	0
-	+	20	0
-
-> /Betty/Betty
-	*	1676570854	0
-	"	20	3
-	^	20	4
-	.	20	0
-	+	20	0
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/12-combinations
-	*	1676411882	0
-	"	1	5
-	^	1	6
-	.	1	5
-	+	2	44
-	+	1	10
-	+	2	45
-	+	1	5
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/11-binary_to_decimal
-	*	1676411533	0
-	"	2	18
-	^	2	19
-	.	2	18
-	+	2	2
-	+	2	0
-	+	2	18
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/13-print_float
-	*	1676406247	0
-	"	2	13
-	^	2	14
-	.	2	13
-	+	2	13
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/12.
-	*	1676405876	0
-	"	2	2
-	^	2	3
-	.	2	2
-	+	2	2
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/2-combinations
-	*	1676405539	0
-	"	2	45
-	^	2	46
-	.	2	45
-	+	2	45
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/10-love_exponent_breath
-	*	1676404865	0
-	"	2	21
-	^	2	22
-	.	2	21
-	+	2	21
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-	*	1676404650	0
-	"	2	21
-	^	2	22
-	.	2	21
-	+	2	21
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/8-true_knowledge
-	*	1676404343	0
-	"	2	29
-	^	2	30
-	.	2	29
-	+	2	29
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/7-create_global_variable
-	*	1676404097	0
-	"	2	19
-	^	2	20
-	.	2	19
-	+	2	19
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/6-create_local_variable
-	*	1676403949	0
-	"	2	12
-	^	2	13
-	.	2	12
-	+	2	12
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/5-local_variables
-	*	1676403777	0
-	"	2	2
-	^	2	3
-	.	2	2
-	+	2	2
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/4-global_variables
-	*	1676403637	0
-	"	2	7
-	^	2	8
-	.	2	7
-	+	2	7
-
-> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/3-paths
-	*	1676403497	0
-	"	2	31
-	^	2	32
-	.	2	31
-	+	2	31
