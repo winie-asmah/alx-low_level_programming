@@ -4,7 +4,7 @@
  * @n - an argument passed to the function
  * Return: the factorial of a given number, -1 if lower than 0
  */
-int factorial(int n);
+int factorial(int n)
 {
 	if (n < 0)
 	{
