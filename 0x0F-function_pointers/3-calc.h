@@ -1,5 +1,5 @@
-#ifndef CALC_H_
-#define CALC_H_
+#ifndef _CALC_H_
+#define _CALC_H_
 
 int op_add(int a, int b);
 int op_sub(int a, int b);
@@ -20,4 +20,6 @@ typedef struct op
 char *op;
 int (*f)(int a, int b);
 } op_t;
+
 #endif
+
